@@ -1,8 +1,31 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import data from './data.json';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+beforeAll(() => jest.spyOn(window, 'fetch'));
+
+describe("Fifth practice", () => {
+
+  it("This should show a list of x-men from the api", async () => {
+    window.fetch.mockResolvedValueOnce({
+      ok: true,
+      json: () => data
+    });
+
+    render(<App />);
+    expect(window.fetch).toBeCalledTimes(1);
+    expect(window.fetch).toBeCalledWith('https://xmenapiheroku.herokuapp.com/api/characters');
+
+    for(let xmen of data.results) {
+      expect(await screen.findByText(xmen.name)).toBeInTheDocument();
+    }
+  });
+
+  it("This should show an error message when there is an error network", async () => {
+    window.fetch.mockRejectedValue(new Error('Network error'));
+
+    render(<App />);
+    expect(await screen.findByText("Network error")).toBeInTheDocument();
+  });
+
 });

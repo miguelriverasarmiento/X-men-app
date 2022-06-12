@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react';
+import { getXmen } from './api/xmen';
 
 function App() {
+
+  const [ xmens, setXmens ] = useState([]);
+  const [ errorState, setErrorState ] = useState({ hasError: false });
+
+  useEffect(() => {
+    getXmen().then((data) => setXmens(data.results)).catch(handleError);
+  }, []);
+
+  const handleError = (error) => {
+    setErrorState({ hasError: true, message: error.message});
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <ul>
+        {errorState.hasError && <div>{errorState.message}</div>}
+        {xmens.map((xmen) => (
+          <li key={xmen.id}>{xmen.name}</li>
+        ))}
+      </ul>
+      </>
   );
 }
 

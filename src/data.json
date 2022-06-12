@@ -1,0 +1,258 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Scott Summers",
+      "alias": "Cyclops",
+      "description": "He is one of the founding members of the X-Men.",
+      "powers": [
+        "Eye Energy Beams"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FCyclops.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:48:26.027Z"
+    },
+    {
+      "id": 2,
+      "name": "Logan",
+      "alias": "Wolverine",
+      "description": "He is a member of the X-Men. He has a mysterious and confused past",
+      "powers": [
+        "Healing Factor",
+        "Animal-Like Senses",
+        "Adamantium Claws and Skeleton"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2Fwolverine.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:48:56.843Z"
+    },
+    {
+      "id": 3,
+      "name": "Charles Xavier",
+      "alias": "Professor X",
+      "description": "He is a powerful telepathic mutant and leader of the X-Men",
+      "powers": "Telepathy",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FProfessor_X.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:09.863Z"
+    },
+    {
+      "id": 4,
+      "name": "Ororo Munroe",
+      "alias": "Storm",
+      "description": "She is a mutant and member of the X-Men. She comes from Africa. She would also be leader of the Morlocks for a long time",
+      "powers": [
+        "Weather Manipulation",
+        "Flight"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FStorm.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:17.476Z"
+    },
+    {
+      "id": 5,
+      "name": "Jean Grey",
+      "alias": "Jean Grey",
+      "description": "He is one of the original members of the X-Men. While working as a member of the group, Jean developed romantic feelings for Scott Summers and found herself the center of attention to Wolverine as well.",
+      "powers": [
+        "Telekinesis",
+        "Telepathy",
+        "Phoenix Force"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FJean_Grey.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:28.614Z"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Hank McCoy",
+      "alias": "Beast",
+      "description": "He is one of the original members of the X-Men. He has been with the team throughout its history. He has extensive knowledge in chemistry and biology, whose own research was used to nearly destroy mutantkind. He has also been a member of the Avengers",
+      "powers": [
+        "Extraordinary Agility",
+        "Superhuman Strength",
+        "Blue Beast-like Appearance"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FBeast1.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:37.308Z"
+    },
+    {
+      "id": 7,
+      "name": "Rogue",
+      "alias": "Rogue",
+      "description": "She is a mutant and a member of the X-Men",
+      "powers": [
+        "Power Absorption",
+        "Memory Absorption",
+        "Flight",
+        "Super Strength and Durability"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FRogue.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:43.990Z"
+    },
+    {
+      "id": 8,
+      "name": "Remy LeBeau",
+      "alias": "Gambit",
+      "description": "He is a mutant and a member of the X-Men and formerly a member of the Thieves' Guild",
+      "powers": "Kinetically Charge Objects",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FGambit.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:49:54.542Z"
+    },
+    {
+      "id": 9,
+      "name": "Jubilation Lee",
+      "alias": "Jubilee",
+      "description": "She is a mutant and a member of the X-Men.",
+      "powers": "Shoots Explosive Electricity",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FJubilee_Powers.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:50:15.050Z"
+    },
+    {
+      "id": 10,
+      "name": "Kevin Sydney",
+      "alias": "Morph",
+      "description": "He is a mutant and member of the X-Men",
+      "powers": "Ability to transform into anyone",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FMorph.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:50:18.097Z"
+    },
+    {
+      "id": 11,
+      "name": "Erik Magnus Lehnsherr",
+      "alias": "Magneto",
+      "description": "He is a revolutionary leader who believes mutants are the next stage of evolution for humanity and are destined to take over the world. He is a friend and enemy to Professor Charles Xavier. He is often an adversary of, though sometimes an ally to, the X-Men.",
+      "powers": [
+        "Generate and Manipulate Magnetic Fields",
+        "Control of Magnetism"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FMagneto.png",
+      "affiliation": "Acolytes",
+      "created": "2020-12-26T19:50:29.005Z"
+    },
+    {
+      "id": 12,
+      "name": "Graydon Creed, Sr.",
+      "alias": "Sabretooth",
+      "description": "He is a mutant supervillain. He is a former member of Team X and is the archenemy to Wolverine",
+      "powers": [
+        "Healing Factor",
+        "Superhuman Senses",
+        "Enhanced Strength",
+        "Claws",
+        "Animal-Like Appearance"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FSabretooth.png",
+      "affiliation": "Team X",
+      "created": "2020-12-26T19:50:36.014Z"
+    },
+    {
+      "id": 13,
+      "name": "Cain Marko",
+      "alias": "Juggernaut",
+      "description": "He is the step-brother to Charles Xavier. He used a mystical gem to become the unstoppable Juggernaut",
+      "powers": [
+        "Crimson Gem of Cyttorak",
+        "Enormous Strength and Durability",
+        "Near Invincibility"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FJuggernaut.png",
+      "affiliation": "",
+      "created": "2020-12-26T19:50:46.873Z"
+    },
+    {
+      "id": 14,
+      "name": "Bolivar Trask",
+      "alias": "Bolivar Trask",
+      "description": "He is the man who designed the Sentinels",
+      "powers": "Genius Intellect",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FBolivar_Trask.png",
+      "affiliation": "Mutant Control Agency",
+      "created": "2020-12-26T19:51:04.996Z"
+    },
+    {
+      "id": 15,
+      "name": "Nathan Christopher Charles Summers",
+      "alias": "Cable",
+      "description": "He is a time traveling mutant, mercenary, and leader of X-Force. He spends much of his time trying to take down the evil mutant Apocalypse in the year 3999 AD",
+      "powers": [
+        "Telekinesis",
+        "Mechanical Arm",
+        "Advanced Weaponry"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FCable.png",
+      "affiliation": "X-Force",
+      "created": "2020-12-26T19:51:14.449Z"
+    },
+    {
+      "id": 16,
+      "name": "Robert Kelly",
+      "alias": "",
+      "description": "Kelly served as a Senator and later as President",
+      "powers": "Persuasive Public Speaker",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FRobert%20Kelly.png",
+      "affiliation": "Friends of Humanity",
+      "created": "2020-12-26T19:51:23.418Z"
+    },
+    {
+      "id": 17,
+      "name": "Raven Darkholme",
+      "alias": "Mystique",
+      "description": "She is a shapeshifting mutant. She is the leader of the Brotherhood of Mutants.",
+      "powers": "Shapeshifting",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FMystique.png",
+      "affiliation": "Brotherhood of Mutants",
+      "created": "2020-12-26T19:51:31.965Z"
+    },
+    {
+      "id": 18,
+      "name": "Graydon Creed Jr.",
+      "alias": "",
+      "description": "He is the son of Sabretooth and Mystique. He was the leader of the anti-mutant hate group Friends of Humanity. ",
+      "powers": "",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FGraydon%20Creed%20Jr.png",
+      "affiliation": "Friends of Humanity",
+      "created": "2020-12-26T19:51:39.348Z"
+    },
+    {
+      "id": 19,
+      "name": "En Sabah Nur",
+      "alias": "Apocalypse",
+      "description": "He is an extremely powerful and ancient mutant. His ultimate goal is to rule the entire planet. ",
+      "powers": [
+        "Extreme Strength",
+        "Extreme Durability",
+        "Shapeshifting",
+        "Energy Projection",
+        "Size Alteration",
+        "Apparent Immortality"
+      ],
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FApocalypse.png",
+      "affiliation": "",
+      "created": "2020-12-26T19:51:46.573Z"
+    },
+    {
+      "id": 20,
+      "name": "Lucas Bishop",
+      "alias": "Bishop",
+      "description": "He is a mutant from the future of New York in 2055 AD. He became a time traveller in order to make his present a better place",
+      "powers": "Energy Absorption and Redirection",
+      "img": "https://cdn.glitch.com/6137de19-12c5-43e0-9704-2252d809dcfb%2FBishop.png",
+      "affiliation": "X-Men",
+      "created": "2020-12-26T19:52:08.046Z"
+    }
+  ],
+  "info": {
+    "count": 23,
+    "limit": 20,
+    "pageCount": 2,
+    "page": 1,
+    "prev": null,
+    "next": "https://xmenapiheroku.herokuapp.com/api/characters?page=2"
+  }
+}
