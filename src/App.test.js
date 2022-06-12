@@ -28,4 +28,24 @@ describe("Fifth practice", () => {
     expect(await screen.findByText("Network error")).toBeInTheDocument();
   });
 
+  it("This should show an error message when there is an server error", async () => {
+    window.fetch.mockRejectedValue({
+      ok: false,
+      status: 500
+    });
+  
+    render(<App />);
+    expect(await screen.findByText("Server error")).toBeInTheDocument();
+  });
+  
+  it("This should show an error message when there is an not found error", async () => {
+    window.fetch.mockRejectedValueOnce({
+      ok: false,
+      status: 404
+    });
+  
+    render(<App />);
+    expect(await screen.findByText(/Not found/i)).toBeInTheDocument();
+  });
+
 });
