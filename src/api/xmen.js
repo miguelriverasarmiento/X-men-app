@@ -1,6 +1,6 @@
-export async function getXmen() {
+export async function getXmen(page) {
     try{
-        const response = await fetch('https://xmenapiheroku.herokuapp.com/api/characters');
+        const response = await fetch('https://xmenapiheroku.herokuapp.com/api/characters?page=' + page );
         if(!response.ok){
             return _handleError(response.status);
         }
@@ -15,6 +15,19 @@ export async function searchDetails(id = 1) {
     try {
         const response = await fetch('https://xmenapiheroku.herokuapp.com/api/characters/' + id);
         if(!response.ok){
+            return _handleError(response.status);
+        }
+        const data = await response.json();
+        return data;
+    } catch(error) {
+        _throwSpecificError(error);
+    }
+}
+
+export async function searchXmen(name) {
+    try {
+        const response = await fetch('https://xmenapiheroku.herokuapp.com/api/characters/?name=' + name);
+        if(!response.ok) {
             return _handleError(response.status);
         }
         const data = await response.json();
